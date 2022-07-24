@@ -56,7 +56,7 @@ const Form = () => {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
-        "form-name": "reach", ...submission }),
+        "form-name": "angelspanishform", ...submission }),
     })
       .then((resp) => console.log(resp))
       .catch((error) => alert(error));
@@ -97,7 +97,7 @@ const Form = () => {
     onSubmit={handleSubmit}
     noValidate
     name="angelspanishform"
-    data-aos='flip-right' data-aos-delay='100' >
+     >
       <input type="hidden" name="form-name" value="contact" />
       {formSent && <p className="msg-sent">Message sent! I'll get back to you shortly.</p> }
       <label className="form-label d-flex col">
