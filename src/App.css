@@ -7,6 +7,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+a,
+button {
+  all: unset;
+}
+
 :root {
   --color-blue: #30376A;
   --color-orange: #FF7549;
@@ -79,11 +84,6 @@ section {
 
 /* Swiper */
 
-.swiper,
-.swiper-wrapper {
-
-}
-
 .swiper-ctn {
   max-width: 100%;
   max-height: 100%;
@@ -110,12 +110,32 @@ span.swiper-pagination-bullet {
 
 /* book session */
 
+.sct-book {
+  align-items: center;
+}
+
 .bk-title {
   color: var(--color-blue);
 }
 
 .calendly-widget {
   overflow: hidden;
+}
+
+.book-btn {
+  background-color: var(--color-orange);
+  width: 200px;
+  height: 50px;
+  color: var(--color-white);
+  border-radius: 10px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.bk-reviews-ctn {
+  align-self: flex-start;
+  width: 100%;
 }
 
 /* contact session */
@@ -125,9 +145,7 @@ span.swiper-pagination-bullet {
   color: var(--color-white);
 }
 
-
 /* global */
-
 
 .oh {
   overflow: hidden;
