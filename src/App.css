@@ -14,7 +14,7 @@ button {
 
 :root {
   --color-blue: #30376A;
-  --color-orange: #FF7549;
+  --color-orange: #FF6826;
   --color-white: #fff;
   --color-black: #000;
 }
@@ -131,10 +131,17 @@ span.swiper-pagination-bullet {
   font-weight: bold;
   align-items: center;
   justify-content: center;
+  transition: all ease 0.2s;
+}
+
+.book-btn:hover {
+  background-color: rgb(255, 233, 219);
+  color: var(--color-orange);
+  border: solid -2px var(--color-orange);
+  transition: all ease 0.2s;
 }
 
 .bk-reviews-ctn {
-  align-self: flex-start;
   width: 100%;
 }
 
@@ -149,4 +156,8 @@ span.swiper-pagination-bullet {
 
 .oh {
   overflow: hidden;
+}
+
+.ck {
+  cursor: pointer;
 }

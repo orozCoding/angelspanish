@@ -8,7 +8,7 @@ const BookSection = () => {
       </p>
       <a target="_blank" rel="noreferrer"
         href="https://calendly.com/angelspanishcom/session"
-        className="book-btn d-flex">
+        className="book-btn d-flex ck">
         <p>Book a session!</p>
       </a>
       <p className="bk-disclaimer">No advance payment is required. Pay after our first session!</p>
