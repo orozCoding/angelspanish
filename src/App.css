@@ -69,3 +69,10 @@ section {
 .ses-title {
   color: var(--color-white);
 }
+
+
+/* book session */
+
+.bk-title {
+  color: var(--color-blue);
+}

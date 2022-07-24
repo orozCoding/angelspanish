@@ -1,5 +1,6 @@
 import './App.css';
 import AboutSection from './sections/About';
+import BookSection from './sections/Book';
 import Header from './sections/Header';
 import SessionsSection from './sections/Sessions';
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <AboutSection />
       <SessionsSection />
+      <BookSection />
     </div>
   );
 }
