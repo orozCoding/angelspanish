@@ -19,6 +19,8 @@ body {
   display: flex;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 section {
@@ -70,6 +72,41 @@ section {
   color: var(--color-white);
 }
 
+.ses-carousel-ctn {
+  box-sizing: border-box;
+  max-width: 85vw;
+}
+
+/* Swiper */
+
+.swiper,
+.swiper-wrapper {
+
+}
+
+.swiper-ctn {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.carousel-pic {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+/* Swiper buttons */
+
+div.swiper-button-prev,
+div.swiper-button-next {
+  color: var(--color-orange)
+}
+
+span.swiper-pagination-bullet {
+  background-color: var(--color-white);
+}
+
 
 /* book session */
 
@@ -81,11 +118,17 @@ section {
   overflow: hidden;
 }
 
-
-
 /* contact session */
 
 .sct-contact {
   background-color: var(--color-blue);
   color: var(--color-white);
+}
+
+
+/* global */
+
+
+.oh {
+  overflow: hidden;
 }
