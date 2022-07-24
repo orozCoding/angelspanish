@@ -1,3 +1,5 @@
+import Calendly from "../components/Calendly";
+
 const BookSection = () => {
   return (
     <section className="sct-book d-flex col">
@@ -6,8 +8,9 @@ const BookSection = () => {
       My current rate is $12 / session.
 Each session is 50 min long.
       </p>
-      <div>CALENDLY</div>
-      <div>video</div>
+      <Calendly />
+      <p className="bk-disclaimer">No advance payment is required. Pay after our first session!</p>
+      <div>VIDEO</div>
     </section>
   )
 }

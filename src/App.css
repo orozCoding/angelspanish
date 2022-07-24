@@ -77,6 +77,10 @@ section {
   color: var(--color-blue);
 }
 
+.calendly-widget {
+  overflow: hidden;
+}
+
 
 
 /* contact session */
