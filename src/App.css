@@ -76,3 +76,12 @@ section {
 .bk-title {
   color: var(--color-blue);
 }
+
+
+
+/* contact session */
+
+.sct-contact {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
