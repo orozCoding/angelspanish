@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
 const Carousel = () => {
-  const imagesAmount = [1, 2, 3, 4, 5, 6, 7, 8];
+  const imagesNumber = [1, 2, 3, 5, 6, 7, 8];
 
   const renderSlide = (number) => {
     return (
@@ -31,9 +31,10 @@ const Carousel = () => {
         slidesPerView={1}
         navigation
         autoplay
+        loop={true}
         pagination={{ clickable: true }}
       >
-        {imagesAmount.map((number) => {
+        {imagesNumber.map((number) => {
           return renderSlide(number)
         })}
       </Swiper>
