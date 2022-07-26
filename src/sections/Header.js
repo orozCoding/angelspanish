@@ -4,7 +4,7 @@ const Header = (props) => {
   return (
     <section className="sct-header d-flex">
       <img className="logo" src="./logo.png" alt="logo" />
-      <Navbar refe={props.refe} />
+      <Navbar refes={props.refes} />
     </section>
   )
 }

@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header refes={[sessionsRef, bookRef, contactRef]} />
+      <Header refes={{sessionsRef, bookRef, contactRef}} />
       <AboutSection />
       <SessionsSection refe={sessionsRef} />
       <BookSection refe={bookRef} />
