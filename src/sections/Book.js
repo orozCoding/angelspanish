@@ -1,6 +1,6 @@
-const BookSection = () => {
+const BookSection = (props) => {
   return (
-    <section className="sct-book d-flex col">
+    <section className="sct-book d-flex col" ref={props.refe}>
       <h2 className="bk-title title">Book a Session</h2>
       <p>
         My current rate is $12 / session.

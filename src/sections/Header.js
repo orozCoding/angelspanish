@@ -1,10 +1,10 @@
 import Navbar from "../components/Navbar"
 
-const Header = () => {
+const Header = (props) => {
   return (
     <section className="sct-header d-flex">
       <img className="logo" src="./logo.png" alt="logo" />
-      <Navbar />
+      <Navbar refe={props.refe} />
     </section>
   )
 }

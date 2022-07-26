@@ -1,8 +1,11 @@
 import Carousel from "../components/Swiper";
 
-const SessionsSection = () => {
+const SessionsSection = (props) => {
+
+  const sessionsRef = props.refe;
+
   return (
-    <section className="sct-sessions d-flex col oh">
+    <section className="sct-sessions d-flex col oh" ref={sessionsRef}>
       <h2 className="ses-title title">Our Sessions</h2>
       <p>
         I believe everyone is different so I offer 1-on-1 video meetings. This way I'm able to customize the sessions and the experience for each student. Our sessions will be unique, fulfilling your needs and finding the best path for you.

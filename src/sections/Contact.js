@@ -1,9 +1,9 @@
 import ContactInfo from "../components/ContactInfo";
 import Form from "../components/Form";
 
-const ContactSection = () => {
+const ContactSection = (props) => {
   return (
-    <section className="sct-contact d-flex col">
+    <section className="sct-contact d-flex col" ref={props.refe}>
       <h2 className="title">Contact</h2>
       <p>Have some questions? Reach me out!</p>
       <Form />

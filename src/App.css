@@ -7,6 +7,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
 a,
 button {
   all: unset;
@@ -47,8 +55,31 @@ section {
 
 /* header */
 
+.sct-header {
+  align-items: center;
+  justify-content: space-around;
+}
+
 .logo {
   width: 200px;
+}
+
+/* navbar */
+
+.navbar-list {
+  gap: 10px;
+}
+
+.navbar-item {
+  font-family: 'Merienda One', cursive;
+  color: var(--color-blue);
+  font-size: 20px;
+  transition: all ease 0.2s;
+}
+
+.navbar-item:hover {
+  color: var(--color-orange);
+  transition: all ease 0.2s;
 }
 
 /* about section */
@@ -176,7 +207,6 @@ span.swiper-pagination-bullet {
 .form {
   gap: 15px;
   padding: 15px 0;
-  font-family: ;
 }
 
 .form input,
