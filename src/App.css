@@ -15,6 +15,7 @@ button {
 :root {
   --color-blue: #30376A;
   --color-orange: #FF6826;
+  --color-orange-light: #ffccb6;
   --color-white: #fff;
   --color-black: #000;
 }
@@ -150,6 +151,123 @@ span.swiper-pagination-bullet {
 .sct-contact {
   background-color: var(--color-blue);
   color: var(--color-white);
+  gap: 6px;
+}
+
+.icon-ws {
+  width: 40px;
+}
+
+.icon-ws:hover {
+  filter: brightness(1.1);
+}
+
+.icon-ws img {
+  filter: invert(61%) sepia(56%) saturate(588%) hue-rotate(90deg) brightness(96%) contrast(94%);
+}
+
+.ws-msg-group1 {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form */
+
+.form {
+  gap: 15px;
+  padding: 15px 0;
+  font-family: ;
+}
+
+.form input,
+.form textarea {
+  border-radius: 10px;
+  padding: 7px 10px;
+}
+
+.error-text,
+.msg-sent {
+  color: var(--color-orange);
+}
+
+.form .form-btn {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--color-white);
+  background-color: var(--color-orange);
+  border: none;
+  transition: all ease 0.2s;
+}
+
+.form .form-btn:hover {
+  background-color: rgb(255, 233, 219);
+  color: var(--color-orange);
+  border: solid -2px var(--color-orange);
+  transition: all ease 0.2s;
+}
+
+/* Contact Info */
+
+.contact-info-box {
+  gap: 20px;
+}
+
+.contact-info-link {
+  color: var(--color-blue-dark);
+  transition: all ease 0.2s;
+}
+
+.contact-info-link:hover {
+  color: var(--color-orange);
+  transition: all ease 0.2s;
+}
+
+.contact-ws-ctn {
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.ws-msg-group1,
+.icon-ws {
+  flex: 1;
+}
+
+.ws-msg-group1 {
+  align-items: flex-end;
+}
+
+.icon-ws {
+  text-align: left;
+}
+
+.icon-ws img {
+  width: 40px;
+}
+
+.contact-info-ctn {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer section */
+
+.sct-footer {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-size: 12px;
+}
+
+.orozcoding {
+  color: var(--color-orange);
+  transition: all ease 0.2s;
+}
+
+.orozcoding:hover {
+  font-size: 12.5px;
+  transition: all ease 0.2s;
 }
 
 /* global */

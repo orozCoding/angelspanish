@@ -115,7 +115,7 @@ const Form = () => {
         {errors.message && <p className="error-text">{errors.message}</p>}
         <textarea  name="message" className={errors.message ? 'error' : ''} />
       </label>
-      <input className="form-btn click" type="submit" value="SEND" />
+      <input className="form-btn ck" type="submit" value="SEND" />
     </form>
   )
 }
