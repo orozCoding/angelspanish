@@ -38,7 +38,7 @@ body {
 }
 
 section {
-  padding: 10px 20px
+  padding: 20px 20px
 }
 
 .title {
@@ -58,6 +58,7 @@ section {
 .sct-header {
   align-items: center;
   justify-content: space-around;
+  padding-bottom: 0;
 }
 
 .logo {
@@ -67,13 +68,13 @@ section {
 /* navbar */
 
 .navbar-list {
-  gap: 10px;
+  gap: 18px;
 }
 
 .navbar-item {
   font-family: 'Merienda One', cursive;
   color: var(--color-blue);
-  font-size: 20px;
+  font-size: 25px;
   transition: all ease 0.2s;
 }
 
@@ -84,7 +85,11 @@ section {
 
 /* about section */
 
-/* profile picture */
+.sct-about {
+  padding-bottom: 25px;
+  gap: 10px;
+  align-items: center;
+}
 
 .profile-pic {
   width: 300px;
@@ -95,7 +100,7 @@ section {
 }
 
 .abt-ctn-2 {
-  gap: 5px;
+  gap: 20px;
 }
 
 /* sessions section */
@@ -103,6 +108,8 @@ section {
 .sct-sessions {
   background-color: var(--color-blue);
   color: var(--color-white);
+  gap: 15px;
+  align-items: center;
 }
 
 .ses-title {
@@ -112,6 +119,7 @@ section {
 .ses-carousel-ctn {
   box-sizing: border-box;
   max-width: 85vw;
+  align-items: center;
 }
 
 /* Swiper */
@@ -144,6 +152,7 @@ span.swiper-pagination-bullet {
 
 .sct-book {
   align-items: center;
+  gap: 15px;
 }
 
 .bk-title {
@@ -175,6 +184,18 @@ span.swiper-pagination-bullet {
 
 .bk-reviews-ctn {
   width: 100%;
+}
+
+.bk-disclaimer {
+  font-size: 12px;
+}
+
+.reviews-title {
+  margin-bottom: -25px;
+}
+
+.romw-outer-wrapper {
+  padding: 25px 60px;
 }
 
 /* contact session */
@@ -256,7 +277,7 @@ span.swiper-pagination-bullet {
 .contact-ws-ctn {
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 15px;
 }
 
 .ws-msg-group1,
@@ -288,6 +309,7 @@ span.swiper-pagination-bullet {
   background-color: var(--color-blue);
   color: var(--color-white);
   font-size: 12px;
+  margin-top: -2px;
 }
 
 .orozcoding {

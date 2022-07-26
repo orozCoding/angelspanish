@@ -2,7 +2,7 @@ const Navbar = (props) => {
 
   const {sessionsRef, bookRef, contactRef} = props.refes;
 
-  const executeScroll = (refe) => refe.current.scrollIntoView()   
+  const executeScroll = (ref) => ref.current.scrollIntoView();   
 
   return (
     <div className="navbar-ctn">
@@ -13,7 +13,7 @@ const Navbar = (props) => {
         <li className="navbar-item ck" onClick={() => executeScroll(bookRef)}>
           Book
         </li>
-        <li className="navbar-item ck" onClick={() => executeScroll(contactRef)}>
+        <li className="navbar-item ck" onClick={() => executeScroll(contactRef  )}>
           Contact
         </li>
       </ul>
