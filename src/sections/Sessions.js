@@ -5,7 +5,7 @@ const SessionsSection = (props) => {
   return (
     <section className="sct-sessions d-flex col oh" ref={props.refe}>
       <h2 className="ses-title title">Our Sessions</h2>
-      <div className="sct-sessions-ctn d-flex col">
+      <div className="sct-ctn sct-sessions-ctn d-flex col">
         <div className="ses-carousel-ctn d-flex col"><Carousel /></div>
         <div className="ses-text d-flex col">
           <p>

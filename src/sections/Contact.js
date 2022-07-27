@@ -5,7 +5,7 @@ const ContactSection = (props) => {
   return (
     <section className="sct-contact d-flex col" ref={props.refe}>
       <h2 className="title">Contact</h2>
-      <div className="sct-contact-ctn d-flex col">
+      <div className="sct-contact-ctn sct-ctn d-flex col">
         <div className="contact-group-1 d-flex col">
           <p>Have some questions? Reach me out!</p>
           <Form />
