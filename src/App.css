@@ -34,6 +34,13 @@ body {
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
+  width: 100vw;
+}
+
+html,
+body,
+#root,
+.App {
   width: 100%;
 }
 
@@ -110,6 +117,9 @@ section {
   color: var(--color-white);
   gap: 15px;
   align-items: center;
+  width: 100%;
+  background-image: url('/public/img/bg/bg3.png');
+  background-attachment: fixed;
 }
 
 .ses-title {
@@ -147,12 +157,16 @@ span.swiper-pagination-bullet {
   background-color: var(--color-white);
 }
 
+.ses-text {
+  gap: 15px;
+}
+
 
 /* book session */
 
 .sct-book {
   align-items: center;
-  gap: 15px;
+  gap: 40px;
 }
 
 .bk-title {
@@ -192,10 +206,18 @@ span.swiper-pagination-bullet {
 
 .reviews-title {
   margin-bottom: -25px;
+  font-size: 25px;
 }
 
 .romw-outer-wrapper {
   padding: 25px 60px;
+}
+
+.book-group-1,
+.book-group-2 {
+  width: 100%;
+  gap: 15px;
+  align-items: center;
 }
 
 /* contact session */
@@ -219,6 +241,11 @@ span.swiper-pagination-bullet {
 }
 
 .ws-msg-group1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.sct-sessions-ctn {
   justify-content: center;
   align-items: center;
 }
@@ -337,12 +364,22 @@ span.swiper-pagination-bullet {
 
 @media screen and (min-width: 600px) {
 
+  .title {
+    font-size: 35px;
+  }
+
   .sct-header {
     flex-direction: row;
   }
 
-  .sct-about {
+  .sct-about,
+  .sct-sessions,
+  .sct-book,
+  .sct-contact {
     padding: 60px 20px;
+  }
+
+  .sct-about {
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -369,6 +406,41 @@ span.swiper-pagination-bullet {
     min-width: 300px;
     max-width: 500px;
     gap: 20px;
+  }
+
+  /* session section */
+
+  .sct-sessions {
+    gap: 60px;
+    height: 650px;
+  }
+
+  .sct-sessions-ctn {
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+  }
+
+  .ses-carousel-ctn {
+    width: 600px;
+  }
+
+  .ses-text {
+    width: 500px
+  }
+
+  /* book section */
+
+  .sct-book {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .book-group-1,
+  .book-group-2 {
+    width: 40%;
   }
 }
 
