@@ -1,4 +1,20 @@
+import { useEffect } from "react";
+
 const BookSection = (props) => {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+
+    script.src = "https://reviewsonmywebsite.com/js/v2/embed.js?id=fd1f59fcc8467fb2938d";
+    script.async = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, [])
+
   return (
     <section className="sct-book d-flex col" ref={props.refe}>
       <div className="book-group-1 d-flex col">
