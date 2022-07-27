@@ -19,9 +19,10 @@ const BookSection = (props) => {
     <section className="sct-book d-flex col" ref={props.refe}>
       <div className="book-group-1 d-flex col">
         <h2 className="bk-title title">Book a Session</h2>
-        <div><p>
-          My current rate is $12 / session.
-        </p>
+        <div>
+          <p>
+            My current rate is <strong className="bk-rate">$12 / session</strong>.
+          </p>
           <p>
             Each session is 50 min long.
           </p>
