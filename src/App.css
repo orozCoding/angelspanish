@@ -324,10 +324,20 @@ span.swiper-pagination-bullet {
   width: 40px;
 }
 
-.contact-info-ctn {
-  text-align: center;
-  justify-content: center;
+.contact-group-2 {
   align-items: center;
+}
+
+.contact-info-ctn {
+  width: fit-content;
+  text-align: left;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact-info-box {
+  text-align: left;
+  align-items: flex-start;
 }
 
 /* footer section */
@@ -441,6 +451,30 @@ span.swiper-pagination-bullet {
   .book-group-1,
   .book-group-2 {
     width: 40%;
+  }
+
+  /* contact section */
+
+  .sct-contact {
+    gap: 30px;
+  }
+
+  .sct-contact-ctn {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contact-group-1,
+  .contact-group-2 {
+    width: 40%;
+  }
+
+  .contact-group-2 {
+    gap: 50px;
+  }
+
+  .contact-ws-ctn {
+    gap: 30px;
   }
 }
 

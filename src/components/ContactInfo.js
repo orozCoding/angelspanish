@@ -6,6 +6,12 @@ const ContactInfo = () => {
       i: 'bi bi-envelope-fill',
       d: 'angel.orozco7@gmail.com',
       u: 'mailto:angel.orozco7@gmail.com'
+    },
+    {
+      t: 'Instagram',
+      i: 'bi bi-instagram',
+      d: '@angelSpanishCom',
+      u: 'https://www.instagram.com/angelspanishcom/'
     }
   ]
 

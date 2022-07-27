@@ -42,8 +42,6 @@ const BookSection = (props) => {
           <div data-romw-token="xjlAeJMCE9K7Bhp3dhvoGWH5Bpst9BkjUclVengHgPKUQmvB6h"></div>
         </div>
       </div>
-
-
     </section>
   )
 }
