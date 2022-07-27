@@ -3,7 +3,7 @@ const AboutSection = () => {
     <section className="sct-about d-flex col">
       <div className="sct-ctn sct-about-ctn d-flex col">
         <div className="abt-ctn-1">
-          <img className="profile-pic" src="./profilepic.png" alt="profile" />
+          <img className="profile-pic" src="./profile_pic.png" alt="profile" />
         </div>
         <div className="abt-ctn-2 d-flex col">
           <div className="abt-text-wrapper d-flex col">
